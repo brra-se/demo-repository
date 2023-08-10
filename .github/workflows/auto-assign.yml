@@ -1,4 +1,5 @@
-name: Auto Assign
+name: Auto Assign Issues/PRs 
+uses: wow-actions/auto-assign@v3
 on:
   issues:
     types: [opened]
